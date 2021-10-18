@@ -16,7 +16,7 @@ console.log(object)
 //{firstName: 'Romet', birthDay: '02', birthMonth: '10', birthYear: '1993', hobbies: 'weightlifting'} Ma ei saa aru miks ta mõlemat hobi välja ei logi.
 
 const firstName2 = 'Romet';
-const bDay = new Date(1993, 11, 02);
+const bDay = new Date(1993, 11, 11);
 const hobbies2 = ['reading', 'weightlifting'];
 const object2 = {
     firstName2: firstName2,
@@ -26,10 +26,6 @@ const object2 = {
     hobbies2: hobbies2
 }
 
-const bDay = object2.birthYear2 + '.' + object2.birthMonth2 + '.' + object2.birthDay2
+const bDay2 = object2.birthYear2 + '.' + object2.birthMonth2 + '.' + object2.birthDay2
 
-console.log(bDay)
-
-// Midagi on koodis viga, kuid ei saa aru mis
-
-
+console.log(bDay2)
